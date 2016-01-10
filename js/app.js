@@ -4,7 +4,7 @@ $(function() {
     var feed = new Instafeed({
         clientId: '26aa6646b2a44fd0bdee284ef850ca97',
         target: 'instafeed',
-        get: 'tagged',
+        get: 'popular',
         user: 'matthiasarni',
         links: true,
         limit: 8,
