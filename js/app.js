@@ -2,10 +2,10 @@ $(function() {
 
     //Set up instafeed
     var feed = new Instafeed({
-        clientId: '97ae5f4c024c4a91804f959f43f2635f',
+        clientId: '26aa6646b2a44fd0bdee284ef850ca97',
         target: 'instafeed',
         get: 'tagged',
-        tagName: 'photographyportfolio',
+        user: 'matthiasarni',
         links: true,
         limit: 8,
         sortBy: 'most-recent',
